@@ -1,5 +1,5 @@
 :root {
-    --verde: #2e7d32;
+    --verde: #005304;
     --claro: #f4f4f4;
     --contraste: #ffffff;
     --cinza: #333;
@@ -64,7 +64,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgb(53, 53, 53);
     padding: 20px;
     max-width: 90%;
     border-radius: 10px;
@@ -97,7 +97,7 @@
   }
   
   footer {
-    background-color: #bdbdbd;
+    background-color: #758577;
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
