@@ -4,50 +4,67 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Do Verde ao Concreto</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-  <header role="banner">
+  <header>
     <h1>Do Verde ao Concreto</h1>
     <p>Educação e Sustentabilidade para Todos</p>
-    <nav aria-label="Navegação principal">
+    <nav>
       <a href="#educacao">Educação</a>
       <a href="#sustentabilidade">Sustentabilidade</a>
       <a href="#conexao">Conexão</a>
+      <a href="#galeria">Galeria</a>
     </nav>
   </header>
 
-  <main role="main">
-    <section class="banner" aria-label="Imagem de destaque com texto">
-      <img 
-        src="img/img2.jpg"
-        alt="Paisagem com campo verde e cidade ao fundo"
-      />
-      <div class="texto">
-        <h2>Unindo Saberes do Campo e da Cidade</h2>
-        <p>Educação e respeito ao meio ambiente em todos os espaços.</p>
-      </div>
+  <section class="banner">
+    <img src="https://images.unsplash.com/photo-1590658268034-8afae8b17391" alt="Paisagem com lago e cidade ao fundo">
+    <div class="texto-banner">
+      <h2>Unindo Saberes do Campo e da Cidade</h2>
+      <p>Juntos por um futuro sustentável</p>
+    </div>
+  </section>
+
+  <!-- Botões que levam para partes da página -->
+  <section class="botoes-navegacao">
+    <a href="#educacao" class="botao">Educação</a>
+    <a href="#sustentabilidade" class="botao">Sustentabilidade</a>
+    <a href="#conexao" class="botao">Conexão</a>
+  </section>
+
+  <main>
+    <section id="educacao" class="conteudo">
+      <h2>Educação no Campo</h2>
+      <p>A educação rural promove a valorização da cultura local e da natureza, garantindo o acesso ao conhecimento em áreas distantes.</p>
+      <img src="https://images.unsplash.com/photo-1607274141950-7e7d1580a044" alt="Crianças estudando no campo">
     </section>
 
-    <section class="conteudo" id="educacao">
-      <article class="bloco">
-        <h3>Educação no Campo</h3>
-        <p>Valorizar o saber local e garantir acesso à educação de qualidade.</p>
-      </article>
-      <article class="bloco" id="sustentabilidade">
-        <h3>Sustentabilidade na Cidade</h3>
-        <p>Repensar hábitos urbanos para proteger o que a natureza oferece.</p>
-      </article>
-      <article class="bloco" id="conexao">
-        <h3>Conexão que Transforma</h3>
-        <p>Quando campo e cidade aprendem juntos, todos ganham.</p>
-      </article>
+    <section id="sustentabilidade" class="conteudo">
+      <h2>Sustentabilidade na Cidade</h2>
+      <p>Iniciativas como hortas urbanas, reciclagem e mobilidade sustentável aproximam a cidade de práticas mais conscientes.</p>
+      <img src="https://images.unsplash.com/photo-1542831371-d531d36971e6" alt="Cidade com árvores e energia solar">
+    </section>
+
+    <section id="conexao" class="conteudo">
+      <h2>Conexão que Transforma</h2>
+      <p>Quando o conhecimento e os valores do campo e da cidade se unem, criamos soluções sustentáveis para todos.</p>
+      <img src="https://images.unsplash.com/photo-1560807707-8cc77767d783" alt="Pessoas unidas em ação comunitária">
+    </section>
+
+    <section id="galeria" class="galeria">
+      <h2>Galeria de Imagens</h2>
+      <div class="grid">
+        <img src="https://images.unsplash.com/photo-1581090124351-3d9b6aa1a3d2" alt="Trator no campo">
+        <img src="https://images.unsplash.com/photo-1517638851339-4aa32003c11a" alt="Estudantes com notebooks">
+        <img src="https://images.unsplash.com/photo-1607703701019-4f19fce7274f" alt="Cidade com árvores e pessoas caminhando">
+      </div>
     </section>
   </main>
 
-  <footer role="contentinfo">
-    <p>&copy; 2025 Projeto Agrinho - Sendo verde e cinza! </p>
+  <footer>
+    <p>&copy; 2025 Projeto Agrinho - Todos os direitos reservados.</p>
   </footer>
 
 </body>
