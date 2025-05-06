@@ -1,9 +1,9 @@
 :root {
-    --verde: #005304;
+    --verde: #016606c4;
     --claro: #f4f4f4;
-    --contraste: #ffffff;
+    --contraste: #727c70;
     --verde: #46720c;
-    --fundo: #000000;
+    --fundo: #251818a9;
   }
   
   * {
@@ -97,7 +97,7 @@
   }
   
   footer {
-    background-color: #758577;
+    background-color: #fbfffc;
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
