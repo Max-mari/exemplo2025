@@ -1,9 +1,9 @@
 :root {
     --verde: #016606c4;
     --claro: #f4f4f4;
-    --contraste: #cacaca;
-    --verde: #46720c;
-    --fundo: #ffffffa9;
+    --contraste: #000000;
+    --verde: #3f680a;
+    --fundo: #ad0000;
   }
   
   * {
@@ -15,7 +15,7 @@
   body {
     font-family: 'Arial', sans-serif;
     font-size: 1rem;
-    background-color: var(--claro);
+    background-color: var(--fundo);
     color: var(--cinza);
     line-height: 1.6;
   }
@@ -64,7 +64,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(252, 252, 252);
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(67, 104, 86);
     padding: 20px;
     max-width: 90%;
     border-radius: 10px;
