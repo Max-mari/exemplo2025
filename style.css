@@ -3,7 +3,7 @@
     --claro: #f4f4f4;
     --contraste: #727c70;
     --verde: #46720c;
-    --fundo: #251818a9;
+    --fundo: #c2c2c2a9;
   }
   
   * {
@@ -63,7 +63,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(252, 252, 252);
     background-color: rgb(53, 53, 53);
     padding: 20px;
     max-width: 90%;
