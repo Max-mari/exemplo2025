@@ -42,7 +42,7 @@
 
 .ac-btn:hover {
   background-color: var(--verde);
-  color: var(--branco);
+  color: var(--preto);
 }
   body {
     font-family: 'Segoe UI', sans-serif;
