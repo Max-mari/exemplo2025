@@ -7,66 +7,11 @@
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-
-  <header>
-
-     <!-- BOTÕES DE ACESSIBILIDADE -->
-<div class="acessibilidade">
-  <button class="ac-btn">A+</button>
-  <button class="ac-btn">A-</button>
-  <button class="ac-btn">🌙</button>
-  <button class="ac-btn">☀️</button>
-    /* Modo escuro quando checkbox está marcado */
-    #modo-escuro:checked ~ body {
-      background-color: #121212;
-      color: #e0e0e0;
-    }
-
-    /* Aumentar texto */
-    #aumentar-texto:checked ~ body {
-      font-size: 20px;
-    }
-
-    /* Diminuir texto */
-    #diminuir-texto:checked ~ body {
-      font-size: 12px;
-    }
-
-    /* Esconde os checkboxes */
-    .acessibilidade input {
-      display: none;
-    }
-
-    .acessibilidade {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      display: flex;
-      gap: 10px;
-      z-index: 1000;
-    }
-
-    .acessibilidade label {
-      background-color: var(--branco);
-      color: var(--verde);
-      border: 2px solid var(--verde);
-      padding: 8px 12px;
-      border-radius: 6px;
-      font-weight: bold;
-      font-size: 1rem;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    .acessibilidade label:hover {
-      background-color: var(--verde);
-      color: var(--branco);
-    }
-  </style>
-</head>
-<body>
-
   <!-- ACESSIBILIDADE -->
+  <input type="checkbox" id="aumentar-texto" hidden>
+  <input type="checkbox" id="diminuir-texto" hidden>
+  <input type="checkbox" id="modo-escuro" hidden>
+
   <div class="acessibilidade">
     <input type="checkbox" id="aumentar-texto">
     <label for="aumentar-texto">A+</label>
@@ -77,6 +22,9 @@
     <input type="checkbox" id="modo-escuro">
     <label for="modo-escuro">🌙</label>
   </div>
+
+
+</body>
 </div>
     <h1>Do Verde ao Concreto</h1>
     <p>Educação e Sustentabilidade para Todos</p>
