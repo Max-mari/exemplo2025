@@ -52,6 +52,54 @@
     scroll-behavior: smooth;
   }
   
+  /* Modo escuro */
+#modo-escuro:checked ~ .acessibilidade,
+#modo-escuro:checked ~ h1,
+#modo-escuro:checked ~ p {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+#modo-escuro:checked ~ body {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Aumentar e diminuir texto */
+#aumentar-texto:checked ~ h1,
+#aumentar-texto:checked ~ p {
+  font-size: 1.5rem;
+}
+#diminuir-texto:checked ~ h1,
+#diminuir-texto:checked ~ p {
+  font-size: 0.8rem;
+}
+
+/* Estilo dos botões de acessibilidade */
+.acessibilidade {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.acessibilidade label {
+  background-color: var(--branco);
+  color: var(--verde);
+  border: 2px solid var(--verde);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.acessibilidade label:hover {
+  background-color: var(--verde);
+  color: var(--branco);
+}
   header {
     background-color: var(--verde);
     color: var(--branco);
