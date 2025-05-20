@@ -19,18 +19,28 @@
   display: flex;
   gap: 10px;
 }
-
-.acessibilidade a {
-  background-color: var(--branco);
-  color: var(--verde);
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1rem;
+.acessibilidade {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 1000;
 }
 
-.acessibilidade a:hover {
+.ac-btn {
+  background-color: var(--branco);
+  color: var(--verde);
+  border: 2px solid var(--verde);
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: not-allowed; /* mostra que ainda não está ativo */
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.ac-btn:hover {
   background-color: var(--verde);
   color: var(--branco);
 }
@@ -75,7 +85,7 @@
     object-fit: cover;
     filter: brightness(0.6);
   }
-  
+
   .voltar-topo {
   position: fixed;
   bottom: 20px;
