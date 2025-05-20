@@ -12,6 +12,28 @@
     box-sizing: border-box;
   }
   
+  .acessibilidade {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.acessibilidade a {
+  background-color: var(--branco);
+  color: var(--verde);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.acessibilidade a:hover {
+  background-color: var(--verde);
+  color: var(--branco);
+}
   body {
     font-family: 'Segoe UI', sans-serif;
     background-color: var(--cinza-claro);
@@ -54,6 +76,23 @@
     filter: brightness(0.6);
   }
   
+  .voltar-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: var(--verde);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.voltar-topo:hover {
+  background-color: var(--verde-escuro);
+}
   .texto-banner {
     position: absolute;
     top: 50%;
