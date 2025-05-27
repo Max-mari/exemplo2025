@@ -220,7 +220,7 @@ ol li::before {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 20px;
   }
-  
+
   .receita-box {
     display: flex;
     align-items: flex-start;
@@ -231,7 +231,27 @@ ol li::before {
     border-radius: 10px;
     background-color: #f9f9f9;
 }
+.receita-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
 
+.receita-imagem img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.receita-texto {
+    flex: 1;
+}
 .receita-imagem img {
     width: 200px; /* ajusta o tamanho */
     height: 200px;
