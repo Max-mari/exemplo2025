@@ -243,7 +243,20 @@ ol li::before {
 .receita-texto {
     flex: 1;
 }
+.receita {
+    margin: 0;
+    padding: 0 10px; /* Só 10px de espaço lateral */
+}
 
+.receita-texto {
+    text-align: left;
+}
+
+.receita-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Encosta o conteúdo à esquerda */
+}
   .grid img {
     width: 100%;
     height: 300px;
