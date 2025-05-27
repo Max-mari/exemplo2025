@@ -221,27 +221,7 @@ ol li::before {
     gap: 20px;
   }
 
-  .receita-box {
-    display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 20px;
-    margin: 20px 0;
-    border: 2px solid #4CAF50;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
 
-.receita-box {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
-    margin: 20px 0;
-    border: 2px solid #4CAF50;
-    border-radius: 10px;
-    background-color: #f9f9f9;
-}
 
 .receita-imagem img {
     width: 200px;
