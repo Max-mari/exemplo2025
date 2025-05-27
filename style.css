@@ -231,6 +231,7 @@ ol li::before {
     border-radius: 10px;
     background-color: #f9f9f9;
 }
+
 .receita-box {
     display: flex;
     align-items: center;
