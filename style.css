@@ -318,6 +318,24 @@ ol li::before {
     margin: auto;
     display: block;
   }
+
+.btn-topo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+.btn-topo:hover {
+  background-color: #388e3c;
+}
   
   footer {
     background-color: #dcdcdc;
