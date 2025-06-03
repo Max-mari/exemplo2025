@@ -239,41 +239,32 @@ ol li::before {
     margin-top: 200px auto;
   }
   
-  .galeria {
-    text-align: center;
-    margin-top: 50px;
-  }
-  
-  .galeria h2 {
-    margin-bottom: 30px;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 20px;
-  }
+  #galeria {
+  text-align: center;
+}
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  display: flex;
+  justify-content: center;
   gap: 20px;
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.grid img {
-  width: 100%;
-  transition: transform 0.3s ease;
-}
-
-.grid img:hover {
-  transform: scale(1.05);
-}
-
-.grid p {
+.image-container {
+  width: 300px; /* Ajuste o tamanho conforme necessário */
   text-align: center;
+}
+
+.image-container img {
+  width: 100%; /* Faz as imagens terem o mesmo tamanho */
+  height: 200px; /* Ajuste a altura para todas as imagens ficarem iguais */
+  object-fit: cover; /* Para manter a proporção da imagem sem distorção */
+}
+
+p {
+  margin-top: 10px;
   font-style: italic;
-  margin-top: 8px;
+  
 }
 
 .receita-imagem img {
