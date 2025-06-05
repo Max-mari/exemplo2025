@@ -334,3 +334,29 @@ p {
     padding: 20px;
     font-size: 0.9rem;
   }
+
+  .modo-noturno {
+  background-color: #1a1a1a;
+  color: #f0eada;
+}
+
+.modo-noturno header {
+  background-color: #333;
+  color: #f0eada;
+}
+
+.modo-noturno header button {
+  background-color: #f0eada;
+  color: #333;
+  border-color: #f0eada;
+}
+
+.modo-noturno header button:hover {
+  background-color: #333;
+  color: #f0eada;
+}
+
+.modo-noturno footer {
+  background-color: #333;
+  color: #f0eada;
+}

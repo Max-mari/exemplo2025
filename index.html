@@ -11,6 +11,7 @@
  <header class="navbar"
     <h1>Do Verde ao Concreto</h1>
     <p>Educação e Sustentabilidade para Todos</p>
+      <button onclick="alternarModo()">🌙 Alternar Modo Noturno</button>
     <nav>
       <a href="#educacao">Educação</a>
       <a href="#sustentabilidade">Sustentabilidade</a>
@@ -144,6 +145,11 @@
   <footer>
     <p>&copy; 2025 Projeto Agrinho - Todos os direitos reservados.</p>
   </footer>
+   <script>
+    function alternarModo() {
+      document.body.classList.toggle('modo-noturno');
+    }
+  </script>
 </body>
 
    
