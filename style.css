@@ -378,7 +378,7 @@ ol li::before {
   }
 
   .modo-noturno {
-  background-color: #1a1a1a;
+  background-color: #0b6936;
   color: #000000;
 }
 
@@ -399,6 +399,6 @@ ol li::before {
 }
 
 .modo-noturno footer {
-  background-color: #333;
+  background-color: #66aa3f;
   color: #a8f7a5;
 }
