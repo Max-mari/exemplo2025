@@ -342,21 +342,21 @@ p {
 
 .modo-noturno header {
   background-color: #333;
-  color: #f0eada;
+  color: #daf0dc;
 }
 
 .modo-noturno header button {
-  background-color: #f0eada;
+  background-color: #668119;
   color: #333;
-  border-color: #f0eada;
+  border-color: #e3f0da;
 }
 
 .modo-noturno header button:hover {
   background-color: #333;
-  color: #f0eada;
+  color: #a6e98c;
 }
 
 .modo-noturno footer {
   background-color: #333;
-  color: #f0eada;
+  color: #a8f7a5;
 }
