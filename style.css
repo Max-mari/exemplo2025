@@ -337,12 +337,12 @@ p {
 
   .modo-noturno {
   background-color: #1a1a1a;
-  color: #8ed8bc;
+  color: #000000;
 }
 
 .modo-noturno header {
   background-color: #333;
-  color: #daf0dc;
+  color: #0c8616;
 }
 
 .modo-noturno header button {
