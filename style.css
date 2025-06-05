@@ -377,28 +377,4 @@ ol li::before {
     font-size: 0.9rem;
   }
 
-  .modo-noturno {
-  background-color: #0b6936;
-  color: #000000;
-}
-
-.modo-noturno header {
-  background-color: #333;
-  color: #0c8616;
-}
-
-.modo-noturno header button {
-  background-color: #668119;
-  color: #057232;
-  border-color: #000000;
-}
-
-.modo-noturno header button:hover {
-  background-color: #333;
-  color: #a6e98c;
-}
-
-.modo-noturno footer {
-  background-color: #66aa3f;
-  color: #a8f7a5;
-}
+  
