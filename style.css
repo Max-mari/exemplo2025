@@ -41,14 +41,14 @@ body {
 }
 
 nav a {
-    margin: 0 10px;
+    margin: 0 8px;
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
 main {
-    margin-top: 150px; /* espaço para a barra fixa */
+    margin-top: 100px; /* espaço para a barra fixa */
 }
 
 /* Imagens quadradas */
@@ -57,7 +57,7 @@ img {
     height: 150px;
     object-fit: cover;
     transition: filter 0.3s;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 /* Imagens sem cor no hover */
