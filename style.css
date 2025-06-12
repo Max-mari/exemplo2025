@@ -48,13 +48,13 @@ nav a {
 }
 
 main {
-    margin-top: 100px; /* espaço para a barra fixa */
+    margin-top: 200px; /* espaço para a barra fixa */
 }
 
 /* Imagens quadradas */
 img {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     transition: filter 0.3s;
     border-radius: 10px;
