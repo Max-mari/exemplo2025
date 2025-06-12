@@ -54,7 +54,7 @@ main {
 /* Imagens quadradas */
 img {
     width: 150px;
-    height: 100px;
+    height: 250px;
     object-fit: cover;
     transition: filter 0.3s;
     border-radius: 8px;
