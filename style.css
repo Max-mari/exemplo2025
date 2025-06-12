@@ -30,12 +30,12 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 128, 0, 0.7); /* verde transparente */
+    background-color:var(--verde)
     color: white;
-    padding: 15px;
+   texte-aling:center
+    padding:6px 0;
     text-align: center;
     z-index: 1000;
-    backdrop-filter: blur(5px);
 }
 
 nav a {
