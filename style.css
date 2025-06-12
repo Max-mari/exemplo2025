@@ -54,7 +54,7 @@ main {
 /* Imagens quadradas */
 img {
     width: 150px;
-    height: 150px;
+    height: 100px;
     object-fit: cover;
     transition: filter 0.3s;
     border-radius: 8px;
@@ -369,11 +369,11 @@ ol li::before {
 }
 
 .btn-topo:hover {
-  background-color: #388e3c;
+  background-color: #319936;
 }
   
   footer {
-    background-color: #0fa140;
+    background-color: #147936;
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
