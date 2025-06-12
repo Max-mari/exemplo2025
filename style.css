@@ -41,7 +41,7 @@ body {
 }
 
 nav a {
-    margin: 0 8px;
+    margin: 0 10px;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -54,10 +54,10 @@ main {
 /* Imagens quadradas */
 img {
     width: 150px;
-    height: 250px;
+    height: 300px;
     object-fit: cover;
     transition: filter 0.3s;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 /* Imagens sem cor no hover */
