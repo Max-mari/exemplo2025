@@ -27,15 +27,17 @@ body {
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color:var(--verde)
-    color: white;
-   texte-aling:center
-    padding:6px 0;
-    text-align: center;
-    z-index: 1000;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #4CAF50; /* Verde médio */
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   
 }
 
 nav a {
